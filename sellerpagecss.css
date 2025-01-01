@@ -1,0 +1,185 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 1;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    box-shadow: inset 20px 15px 15px 15px #fcff64;
+    border-radius: 35px;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+
+
+.login{
+    background: transparent;
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    outline: none;
+    padding: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.login i {
+    margin-right: 5px;
+}
+#userInfoContainer {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    top: calc(100% + 10px); /* Position below the button */
+    left: 0;
+    z-index: 999; /* Ensure it's above other elements */
+    display: none; /* Initially hidden */
+}
+.subs{
+    background-color:rgb(161, 255, 111);
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    outline: none;
+    padding: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.bar {
+    background: transparent;
+    border: 2px solid lightgrey;
+    border-radius: 8px;
+    outline: none;
+    height: 40px;
+    width: 500px;
+}
+.column {
+    display: flex;
+}
+.sidebar {
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: sti;
+}
+.sidebar a {
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+}
+.sidebar a:hover {
+    background-color: #ddd;
+
+}
+table {
+    width: 40%;
+    border-collapse: collapse;
+    margin-left: 100px;
+}
+
+th, td {
+    border: 0px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.bookimage img{
+    width: 190px;
+    height: 300px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.bookline img{
+    width: 190px;
+    height: 300px;
+}
+.bookimage img {
+    transition: transform 0.3s ease; /* Add smooth transition effect */
+}
+
+.bookimage img:hover {
+    transform: scale(1.2); /* Set the desired zoom level */
+}
+.bookimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.book-container {
+    position: relative;
+    margin: 10px;
+}
+
+.book-options {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.book-container:hover .book-options {
+    display: flex;
+}
+
+.book-options button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+footer{
+    background-color: #f1f1f1;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+.button-container button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+}

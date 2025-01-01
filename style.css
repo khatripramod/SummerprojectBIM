@@ -1,0 +1,162 @@
+body {
+  background-color: #ffffff;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(112, 111, 111, 0.1);
+  z-index: 100;
+}
+.authors-link {
+  color: rgb(255, 0, 0); 
+  text-decoration: none; 
+font-size: 20px;
+margin-left: 20px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.search-bar input {
+  border-radius: 10px;
+  height: 30px;
+  width: 400px;
+  padding: 8px 12px;
+  border: 1px solid #a8a8a8;
+}
+
+.auth-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 15px;
+  background-color: transparent;
+  color: #1b1b1b;
+  cursor: pointer;
+  border: 1px solid #a8a8a8;
+}
+
+.bookimage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.bookimage .image-container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.bookimage img {
+  width: 190px;
+  height: 300px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.bookline img {
+  width: 190px;
+  height: 300px;
+}
+
+.bookimage img:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  background-color: transparent;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+}
+.quotes-container {
+  display: flex;
+  justify-content: space-between; /* Space between columns */
+}
+
+.quote {
+  width: 45%; /* Adjust width as needed */
+  display: flex;
+  align-items: center;
+  background-color: #f9f9f9;
+  border-left: 6px solid #4285F4; /* Google Blue */
+  margin: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.left-quote {
+  flex-direction: row; /* Default direction */
+}
+
+.right-quote {
+  flex-direction: row-reverse; /* Reverse direction */
+}
+
+.quote img {
+  width: 100px; /* Adjust size as needed */
+  border-radius: 50%;
+  margin-right: 20px; /* Add margin to separate image from quote content */
+}
+
+.quote-content p {
+  font-size: 18px;
+  font-style: italic;
+  color: #333;
+  margin: 0; /* Remove default margin to align text properly */
+}
+.authors-section {
+  background-color:transparent;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.authors {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.author img {
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.author p {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+}
+
+
+
+
